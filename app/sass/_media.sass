@@ -1,0 +1,259 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+
+
+//@media only screen and (max-width:1440px)
+//	.s
+//		&_consultant
+//			min-height: 580px
+//		&_services
+//			max-height: 750px
+//			.box_services_move_top				
+//				top: -135px
+
+
+
+////////
+@media only screen and (max-width : 1200px)
+	.park_info,.audio_info, .nav_info, .nosound_info, .alarm_info
+		left: 330px
+	.s
+		&_consultant
+			min-height: 530px
+	
+	
+
+
+				
+	
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.top_info
+		display: none
+	.park_info,.audio_info, .nav_info, .nosound_info, .alarm_info
+		left: 330px
+	.s_aboutus
+		.main_aboutus
+			img
+				max-width: 345px
+		.footer_aboutus
+	 		span
+	  		font-size: 10px
+	  	img,span
+	  		margin-right: 5px
+	.s
+		&_services
+	 		.background
+	 			height: 1365px
+		&_consultant
+			min-height: 470px
+		&_discounts
+			.img_2
+				margin-top: 30px
+	//.s
+	//	&_consultant
+	//		min-height: 480px
+	//	&_services
+	//		min-height: 1345px 
+	//		.box_services_move_top				
+	//			top: -100px      
+
+	
+	
+
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	body.ishome
+		.site_header
+			min-height: 620px
+			height: 100vh
+	.top_info
+		display: none
+	.h1
+		font-size: 26px
+	.park_info,.audio_info, .nav_info, .nosound_info, .alarm_info
+		left: 330px
+
+	.s_aboutus
+		.img_aboutus
+			padding-bottom: 30px
+		.main_aboutus
+			img				
+				max-width: 443px				
+		.footer_aboutus
+			p
+				padding-top: 25px
+			img,span
+				margin-right: 15px
+	.s
+		&_partners	
+			.partners
+				i
+					&.fa-angle-left
+						left: -20px
+					&.fa-angle-right
+						right: -20px
+		&_consultant
+			min-height: 640px
+		&_qualitys
+			.h2
+				font-size: 20px
+				padding-top: 30px
+			.box_brs
+				margin-top: 40px
+		&_callback_2
+			padding: 40px 0
+			.h1
+				font-size: 20px
+				padding-bottom: 0
+		&_pay
+			.img_2
+				margin-top: 30px
+			.h2
+				font-size: 24px
+	.main_footer	
+		.footer_column
+			padding: 18px 0
+			.footer_guaranted
+				&:first-child
+					padding-bottom: 23px
+	
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	body.ishome
+		.site_header
+			min-height: 590px
+			height: 100vh
+	.h1
+		font-size: 20px
+	
+	.brecker
+		display: none
+	.park_info,.audio_info, .nav_info, .nosound_info, .alarm_info
+		left: 330px
+	
+	.s_aboutus
+		.main_aboutus
+			img
+				max-width: 325px	
+		.footer_aboutus
+			img,span
+				margin-right: 5px
+	.s
+		&_consultant
+			min-height: 600px
+			p
+				font-size: 16px
+		&_partners
+			.h2
+				font-size: 24px
+		&_discounts
+			.h2
+				font-size: 24px
+				padding-top: 35px
+			.discount
+				width: 290px
+		&_quality
+			.h2
+				font-size: 18px
+		&_callback_2
+			.h1
+				font-size: 16px
+		&_pay
+			.img_2
+				p
+					left: 185px
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.brecker
+		display: none
+	.h1
+		font-size: 17px
+	body.ishome
+		.site_header
+			min-height: 570px
+			height: 100vh
+		
+	.park_info,.audio_info, .nav_info, .nosound_info, .alarm_info
+		left: 330px	
+			
+	.s_aboutus
+		.main_aboutus
+			img
+				max-width: 290px
+				margin-left: 0
+		.footer_aboutus
+			img
+				max-width: 43px
+	.s
+		&_consultant
+			min-height: 560px
+		&_quality
+			.guarantee
+				p.work
+					top: 20px
+		&_pay
+			.img_2
+				p
+					left: 165px
+
+	//.s
+	//	&_consultant
+	//		min-height: 540px	
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	section
+		.container
+			max-width: 460px
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	section
+		.container
+			max-width: 760px
+	/**/
+
+   
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	section
+		.container
+			max-width: 960px
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	section
+		.container
+			max-width: 960px
+	/**/
+
